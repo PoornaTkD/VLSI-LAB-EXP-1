@@ -143,6 +143,7 @@ and G4(w3,X,Y);
 or G5(CO,w3,w3);
 endmodule
 OUTPUT:
+
 -----Place a Waveform Generated from Xilinx ISE
 
 OR GATE:

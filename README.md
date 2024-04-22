@@ -67,6 +67,7 @@ xor g1(sum,a,b);
 and g2(carry,a,b);
 endmodule
 Half Subractor:
+```
 module halfsubtractor(a,b,diff,borrow);
 input a,b;
 output diff,borrow;
@@ -88,6 +89,7 @@ or g5(carry,w3,w2);
 endmodule
 ```
 Full Subtractor:
+```
 module fs(a,b,bin,d,bout);
 input a,b,bin; 
 output d,bout;
@@ -112,6 +114,7 @@ fulladder u2(S[1],w2,X[1],Y[1],w1);
 fulladder u3(S[2],w3,X[2],Y[2],w2);
 fulladder u4(S[3],Cout,X[3],Y[3],w3);
 endmodule
+
 
 module fulladder(S,CO,X,Y,Ci);
 input X,Y,Ci;
